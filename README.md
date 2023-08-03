@@ -14,7 +14,7 @@ This is a simple shopping cart web application built using React JS and Redux. I
 
 - React JS
 - Redux (for state management)
-- Semantic UI (for styling)
+- Tailwindcss (for styling)
 
 ## Setup
 
