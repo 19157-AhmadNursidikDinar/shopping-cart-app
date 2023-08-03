@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Shopping Cart App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple shopping cart web application built using React JS and Redux. It allows users to add and remove items to/from the cart, apply discount codes, and view the total price with shipping cost.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Add items to the cart with quantity control
+- Remove items from the cart
+- Apply discount codes for special offers
+- View the total price including shipping cost
+- Responsive design for different screen sizes
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React JS
+- Redux (for state management)
+- Semantic UI (for styling)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup
 
-### `npm test`
+1. Clone the repository or download the ZIP file.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
+4. Open `http://localhost:3000` in your web browser to view the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+The project structure is organized as follows:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+shopping-cart-app/
+  ├── src/
+  │    ├── components/
+  │    │    ├── CartItem.js
+  │    │    ├── DiscountInput.js
+  │    │    ├── ShoppingCart.js
+  │    │    └── TotalPrice.js
+  │    ├── actions/
+  │    │    └── cartActions.js
+  │    ├── reducers/
+  │    │    ├── cartReducer.js
+  │    │    └── index.js
+  │    ├── App.js
+  │    └── index.js
+  ├── index.html
+  ├── package.json
+  ├── tailwind.config.js
+  └── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions are welcome! If you find any issues or want to add new features, feel free to create a pull request.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is created by [Ahmad Nursidik Dinar](https://github.com/19157-AhmadNursidikDinar).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
